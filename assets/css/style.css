@@ -1,11 +1,15 @@
  
-
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ 
 html{
 	font-size: 62.5%;
 }
 body{	
 	font-size: 1.6rem; 
-	font-weight: 400;
+	font-weight: 400; 
+    font-family: 'PP Telegraf';
+	background: #000000;
 }
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0;
@@ -22,10 +26,116 @@ ul li a,a{
 /*======================  Start Page  ======================*/
 
 
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #00C8FF;
+	padding: 102px 0 52px 0;
+}
 
+.menu ul {
+	display: flex;
+	gap: 43px;
+	align-items: center;
+}
 
+.menu ul li a {
+	color: #fff;
+	font-size: 23px;
+	transition: 0.3s;
+}
 
+.menu ul li a:hover {
+	color: #00FF58;
+}
 
+.contact_btn {
+	padding: 15px 30px;
+	border: 1px solid #00C8FF;
+	border-radius: 10px;
+	color: #FF6200 !important;
+}
+
+.contact_btn:hover {
+	background: #00C8FF;
+	color: #fff !important;
+}
+
+.banner_left h2 {
+	color: #fff;
+	font-size: 192px;
+	font-family: "Montserrat", sans-serif;
+}
+
+/* .banner_left {
+	width: 100%;
+	max-width: 1130px;
+} */
+
+.banner_left h2 span {
+	color: #00FF58;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.banner_left {
+	flex: 0 0 78%;
+}
+
+.banner_right h3 {
+	color: #fff;
+	font-size: 65px;
+}
+
+.banner_right h3 span {
+	color: #FF6200; 
+}
+
+.banner_btn a {
+	font-size: 50px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	transition: 0.3s;
+}
+
+.banner_btn a:hover {
+	opacity: 0.83;
+}
+
+.banner_btn a img {
+	transform: translateY(-20px);
+}
+
+.banner_btn {
+	display: flex;
+	margin: 84px 0 98px 0;
+	gap: 99px;
+}
+
+.money_area {
+	background: #00C8FF;
+	padding: 66px 0 75px 0;
+}
+
+.single_money h3 {
+	color: #fff;
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+
+.single_money p {
+	color: #000000;
+	font-size: 20px;
+	line-height: 27px;
+	width: 89%;
+}
 
 /*======================  End Page  ======================*/
 
