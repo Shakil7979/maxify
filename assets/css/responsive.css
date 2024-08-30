@@ -70,10 +70,23 @@
         position: absolute;
         left: 0;
         z-index: 99999999;
-        top: 122px;
-        background: #000;
+        top: 106px;
+        background: #00C8FF;
         width: 100%;
         border-bottom: 1px solid #00C8FF;
+    }
+    .contact_btn {
+        border: 1px solid #fff;
+    }
+    .contact_btn:hover {
+        background: #fff;
+        color: #000 !important;
+    }
+    .menu ul li a:hover {
+        color: #000;
+    }
+    .contact_btn { 
+        color: #fff !important;
     }
     .menu ul {
         flex-direction: column;
