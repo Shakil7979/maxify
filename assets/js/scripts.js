@@ -25,6 +25,8 @@ $(document).ready(function() {
 
 	$(document).on('click','.click_bars', function(){
 		$('.menu').slideToggle(500);
+
+		return false;
 	})
 
 
