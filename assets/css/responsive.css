@@ -1,21 +1,165 @@
-@media all and (min-width: 1550px){
+@media all and (min-width: 1750px){
     .container  {
         max-width: 1721px;
     }
 }
 
-@media all and (max-width: 991px){
-	
+@media all and (max-width: 1750px){
+	.banner_left h2 { 
+        font-size: 140px; 
+    }
+    .single_money h3 { 
+        font-size: 26px; 
+    }
+    .single_money p { 
+        font-size: 16px;
+        line-height: 23px; 
+    }
+}
+
+@media all and (max-width: 1400px){
+    .banner_left h2 {
+        font-size: 123px;
+    }
+    .banner_right h3 { 
+        font-size: 40px;
+    }
+    .banner_btn a {
+        font-size: 28px; 
+    }
+    .banner_btn img {
+        width: 29px;
+        margin-right: 10px;
+        margin-top: 38px;
+    }
+    .logo img {
+        width: 250px;
+    }
+    .menu ul li a { 
+        font-size: 18px; 
+    }
+    .header { 
+        padding: 44px 0 28px 0;
+    }
+}
+
+@media all and (max-width: 1200px){
+	.banner_left h2 {
+        font-size: 96px;
+    }
+    .banner_right h3 {
+        font-size: 30px;
+    }
+    .banner_right {
+        margin-top: -161px;
+    }
+    .single_money h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+}
+
+@media all and (min-width: 991px){
+    .menu ul {
+        display: flex !important;
+    } 
+}
+@media all and (max-width: 991px){ 
+    .menu { 
+        display: none;
+        position: absolute;
+        left: 0;
+        z-index: 99999999;
+        top: 122px;
+        background: #000;
+        width: 100%;
+    }
+    .menu ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 35px 0;  
+    } 
+    .banner_desktop_right{
+        display: none;
+    }
+
+    .banner_mobile_right{
+        display: block;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    } 
+    .click_bars i {
+        font-size: 30px;
+        color: #fff;
+    }
+    .click_bars{
+        display: block;
+    }
+    .banner_right {
+        margin-top: 0;
+    }
+    .banner_left h2 {
+        font-size: 75px;
+        margin-bottom: 14px;
+    }
 }
 
 @media all and (max-width: 767px){
-	
+	.banner_left h2 {
+        font-size: 55px; 
+    }
+    .banner_right h3 {
+        font-size: 18px;
+    }
+    .banner_btn { 
+        margin: 52px 0 50px 0;
+        gap: 7px;
+        flex-direction: column;
+    }
+    .single_money {
+        margin-bottom: 25px;
+    }
+    .single_money p { 
+        width: 100%;
+    }
+    .banner_btn a {
+        font-size: 20px;
+    }
+    .banner_btn img {
+        width: 20px; 
+    }
+    .money_area { 
+        padding: 36px 0 12px 0;
+    }
+    .single_money p {
+        font-size: 14px; 
+    }
 }
 
 @media all and (max-width: 575px){
-	
+	.logo img {
+        width: 180px;
+    }
+    .banner_left h2 {
+        font-size: 46px;
+    }
+    .banner_btn {
+        margin: 20px 0 33px 0;
+        gap: 0;
+        flex-direction: column;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        padding-right: 2rem;
+        padding-left: 2rem; 
+    }
 }
 
 @media all and (max-width: 450px){
-	
+	.banner_left h2 {
+        font-size: 39px;
+    }
 }

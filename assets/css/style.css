@@ -109,20 +109,41 @@ ul li a,a{
 	align-items: center;
 	gap: 7px;
 	transition: 0.3s;
+} 	
+.banner_btn a:hover {
+	color: #00FF58;
 }
 
-.banner_btn a:hover {
-	opacity: 0.83;
+.banner_btn img {
+	width: 40px;
+	margin-right: 15px; 
+	margin-top: 35px;
 }
 
 .banner_btn a img {
 	transform: translateY(-20px);
 }
 
+.click_bars{
+	display: none;
+}
+
 .banner_btn {
 	display: flex;
 	margin: 84px 0 98px 0;
 	gap: 99px;
+}
+
+.banner_desktop_right{
+	display: block;
+}
+
+.banner_mobile_right{
+	display: none;
+}
+
+.banner_second_btn:hover {
+	color: #00C7FD !important;
 }
 
 .money_area {
