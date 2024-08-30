@@ -65,7 +65,9 @@ ul li a,a{
 .banner_left h2 {
 	color: #fff;
 	font-size: 192px;
-	font-family: "Montserrat", sans-serif;
+	/* font-family: "Montserrat", sans-serif; */
+	
+    font-family: 'PP Telegraf ultra bold';
 }
 
 /* .banner_left {
@@ -75,6 +77,10 @@ ul li a,a{
 
 .banner_left h2 span {
 	color: #00FF58;
+}
+
+.banner_right {
+	margin-top: -130px;
 }
 
 .banner {
@@ -127,7 +133,9 @@ ul li a,a{
 .single_money h3 {
 	color: #fff;
 	font-size: 42px;
-	margin-bottom: 28px;
+	margin-bottom: 22px;
+	font-weight: 700;
+	font-family: 'PP Telegraf ultra bold';
 }
 
 .single_money p {
