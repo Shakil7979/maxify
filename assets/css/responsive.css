@@ -6,7 +6,10 @@
 
 @media all and (max-width: 1750px){
 	.banner_left h2 { 
-        font-size: 140px; 
+        font-size: 173px; 
+    }
+    .banner_typing_flex {
+        transform: translateY(-58px);
     }
     .single_money h3 { 
         font-size: 26px; 
@@ -17,9 +20,14 @@
     }
 }
 
+@media all and (max-width: 1500px){
+    .banner_typing_flex {
+        transform: translateY(-67px);
+    }
+}
 @media all and (max-width: 1400px){
     .banner_left h2 {
-        font-size: 123px;
+        font-size: 138px;
     }
     .banner_right h3 { 
         font-size: 40px;
@@ -41,11 +49,21 @@
     .header { 
         padding: 44px 0 28px 0;
     }
+    .banner_typing_flex span {
+        font-size: 25px; 
+        height: 37px;
+    }
+    .banner_typing_flex {
+        transform: translateY(-63px);
+    }
 }
 
 @media all and (max-width: 1200px){
-	.banner_left h2 {
-        font-size: 96px;
+    .banner_left h2 {
+        font-size: 110px;
+    }
+    .banner_typing_flex {
+        transform: translateY(-42px);
     }
     .banner_right h3 {
         font-size: 30px;
@@ -120,6 +138,10 @@
         font-size: 75px;
         margin-bottom: 14px;
     }
+    .banner_typing_flex span {
+        font-size: 18px;
+        height: 27px;
+    }
 }
 
 @media all and (max-width: 767px){
@@ -152,6 +174,13 @@
     .single_money p {
         font-size: 14px; 
     }
+    .banner_typing_flex {
+        transform: translateY(-26px);
+    }
+    .banner_typing_flex span {
+        font-size: 16px;
+        height: 23px;
+    }
 }
 
 @media all and (max-width: 575px){
@@ -170,10 +199,20 @@
         padding-right: 2rem;
         padding-left: 2rem; 
     }
+    .banner_typing_flex span { 
+        width: 78px;
+    }
 }
 
 @media all and (max-width: 450px){
 	.banner_left h2 {
         font-size: 39px;
+    }
+    .banner_typing_flex span {
+        font-size: 14px;
+        height: 19px;
+    }
+    .banner_typing_flex {
+        transform: translateY(-21px);
     }
 }

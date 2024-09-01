@@ -64,7 +64,7 @@ ul li a,a{
 
 .banner_left h2 {
 	color: #fff;
-	font-size: 192px;
+	font-size: 220px;
 	/* font-family: "Montserrat", sans-serif; */
 	
     font-family: 'PP Telegraf ultra bold';
@@ -75,7 +75,12 @@ ul li a,a{
 	max-width: 1130px;
 } */
 
-.banner_left h2 span {
+.banner_typing_flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.color_green {
 	color: #00FF58;
 }
 
@@ -88,10 +93,7 @@ ul li a,a{
 	align-items: center;
 	padding-top: 50px;
 }
-
-.banner_left {
-	flex: 0 0 78%;
-}
+ 
 
 .banner_right h3 {
 	color: #fff;
@@ -100,6 +102,32 @@ ul li a,a{
 
 .banner_right h3 span {
 	color: #FF6200; 
+}
+
+.banner_typing_flex span {
+	font-size: 40px;
+	font-family: 'PP Telegraf';
+	color: #FF6200;
+	height: 57px;
+	width: 125px;
+}
+.banner_typing_flex span {
+	font-size: 40px;
+	font-family: 'PP Telegraf';
+	color: #FF6200; 
+}	
+
+.banner_typing_flex .text1 {
+	color: #fff !important;
+}
+
+.banner_text_boxxx {
+	display: flex;
+	align-items: end;
+}
+
+.banner_typing_flex {
+	transform: translateY(-96px);
 }
 
 .banner_btn a {
@@ -169,3 +197,14 @@ ul li a,a{
 /*======================  End Page  ======================*/
 
 
+.typing-cursor::after {
+    content: '|';
+    animation: blink 0.7s step-start infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}

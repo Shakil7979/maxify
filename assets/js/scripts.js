@@ -1,5 +1,6 @@
 $(document).ready(function() {
     function typeText(element, text, delay) {
+        $(element).addClass('typing-cursor');
         let i = 0;
         let interval = setInterval(function() {
             if (i < text.length) {
@@ -7,6 +8,7 @@ $(document).ready(function() {
                 i++;
             } else {
                 clearInterval(interval);
+                $(element).removeClass('typing-cursor'); // Remove the cursor after typing is complete
             }
         }, delay);
     }
@@ -15,19 +17,18 @@ $(document).ready(function() {
     $('.text1').text('');
     $('.text2 span').text('');
 
-    // Start typing
+    // Start typing with a cursor effect
     typeText('.text1', 'Not ', 100);
     setTimeout(function() {
         typeText('.text2 span', '$6,750', 100);
-    }, 500); // Adjust delay as needed
-
-
-
-	$(document).on('click','.click_bars', function(){
-		$('.menu').slideToggle(500);
-
-		return false;
-	})
-
-
+    }, 500); 
 });
+
+
+
+
+$(document).on('click','.click_bars', function(){
+	$('.menu').slideToggle(500);
+
+	return false;
+})
