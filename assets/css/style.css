@@ -64,7 +64,7 @@ ul li a,a{
 
 .banner_left h2 {
 	color: #fff;
-	font-size: 220px;
+	font-size: 235px;
 	/* font-family: "Montserrat", sans-serif; */
 	
     font-family: 'PP Telegraf ultra bold';
@@ -75,10 +75,10 @@ ul li a,a{
 	max-width: 1130px;
 } */
 
-.banner_typing_flex {
+/* .banner_typing_flex {
 	display: flex;
 	flex-direction: column;
-}
+} */
 
 .color_green {
 	color: #00FF58;
