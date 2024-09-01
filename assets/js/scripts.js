@@ -17,12 +17,13 @@ $(document).ready(function() {
     $('.text1').text('');
     $('.text2 span').text('');
 
-    // Start typing with a cursor effect
-    typeText('.text1', 'Not ', 100);
+    // Start typing with a slower cursor effect
+    typeText('.text1', 'Not ', 200);  // Increased delay for slower typing
     setTimeout(function() {
-        typeText('.text2 span', '$6,750', 100);
-    }, 500); 
+        typeText('.text2 span', '$6,750', 200);  // Increased delay for slower typing
+    }, 1000); // Adjust delay as needed
 });
+
 
 
 
