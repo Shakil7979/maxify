@@ -12,17 +12,485 @@
         <title>Affordable Website Design near Pomona, New York - The Maxify Team</title>
         <link rel="icon" href="assets/images/favicon.png">
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Bootstrap --> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"/>
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
-        <!-- Normalize -->
-        <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
-        <!-- <link rel="stylesheet" href="assets/fonts/new/stylesheet.css"> -->
-        <!-- CSS Files -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <!-- Normalize --> 
+        <link
+        rel="stylesheet"
+        href="https://shakil7979.github.io/fonts/stylesheet.css"
+      />
+
+        <style> 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+ html{
+     font-size: 62.5%;
+ }
+ body{	
+     font-size: 1.6rem; 
+     font-weight: 400; 
+     font-family: 'PP Telegraf';
+     background: #000000;
+ }
+ h1,h2,h3,h4,h5,h6,p{
+     margin: 0;
+     padding: 0;
+ }
+ ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+ ul li a,a{
+     text-decoration: none;
+ }
+ /*======================  Start Page  ======================*/
+ 
+ 
+ .header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-bottom: 1px solid #00C8FF;
+     padding: 102px 0 52px 0;
+ }
+ 
+ .menu ul {
+     display: flex;
+     gap: 43px;
+     align-items: center;
+ }
+ 
+ .menu ul li a {
+     color: #fff;
+     font-size: 23px;
+     transition: 0.3s;
+ }
+ 
+ .menu ul li a:hover {
+     color: #00FF58;
+ }
+ 
+ .contact_btn {
+     padding: 15px 30px;
+     border: 1px solid #00C8FF;
+     border-radius: 10px;
+     color: #FF6200 !important;
+ }
+ 
+ .contact_btn:hover {
+     background: #00C8FF;
+     color: #fff !important;
+ }
+ 
+ .banner_left h2 {
+     color: #fff;
+     font-size: 224px;
+     /* font-family: "Montserrat", sans-serif; */
+     
+     font-family: 'PP Telegraf ultra bold';
+ }
+ 
+ .color_green {
+     color: #00FF58;
+ }
+ 
+ .banner_right {
+     margin-top: -130px;
+ }
+ 
+ .banner {
+     display: flex;
+     align-items: center;
+     padding-top: 50px;
+ }
+  
+ 
+ .banner_right h3 {
+     color: #fff;
+     font-size: 65px;
+ }
+ 
+ .banner_right h3 span {
+     color: #FF6200; 
+ }
+ 
+ .banner_typing_flex span {
+     font-size: 40px;
+     font-family: 'PP Telegraf';
+     color: #FF6200;
+     height: 57px;
+     width: 125px;
+ }
+ .banner_typing_flex span {
+     font-size: 40px;
+     font-family: 'PP Telegraf';
+     color: #FF6200; 
+ }	
+ 
+ .banner_typing_flex .text1 {
+     color: #fff !important;
+     display: block;
+     line-height: 90px;
+ }
+ 
+ /* test  */
+ .banner_text_boxxx {
+     display: flex;
+     align-items: end;
+ }
+  
+ 
+ 
+ /* test end  */ 
+ .banner_typing_flex { 
+	display: inline-block;
+	line-height: 0;
+}
+ 
+ 
+ 
+ .banner_btn a {
+     font-size: 50px;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     gap: 7px;
+     transition: 0.3s;
+ } 	
+ .banner_btn a:hover {
+     color: #00FF58;
+ }
+ 
+ .banner_btn img {
+     width: 40px;
+     margin-right: 15px; 
+     margin-top: 35px;
+ }
+ 
+ .banner_btn a img {
+     transform: translateY(-20px);
+ }
+ 
+ .click_bars{
+     display: none;
+ }
+ 
+ .banner_btn {
+     display: flex;
+     margin: 84px 0 98px 0;
+     gap: 99px;
+ }
+ 
+ .banner_desktop_right{
+     display: block;
+ }
+ 
+ .banner_mobile_right{
+     display: none;
+ }
+ 
+ .banner_second_btn:hover {
+     color: #00C7FD !important;
+ }
+ 
+ .money_area {
+     background: #00C8FF;
+     padding: 66px 0 75px 0;
+ }
+ 
+ .single_money h3 {
+     color: #fff;
+     font-size: 42px;
+     margin-bottom: 22px;
+     font-weight: 700;
+     font-family: 'PP Telegraf ultra bold';
+ }
+ 
+ .single_money p {
+     color: #000000;
+     font-size: 20px;
+     line-height: 27px;
+     width: 89%;
+ }
+ 
+ /*======================  End Page  ======================*/
+ 
+ 
+ .typing-cursor::after {
+    content: '_'; /* Underscore instead of pipe */
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+ .logo img {
+	width: 400px;
+}
+
+ 
+
+ /* Here is the responsive code  */
+
+ @media all and (min-width: 1750px){
+    .container  {
+        max-width: 1721px;
+    }
+}
+
+@media all and (max-width: 1750px){
+	.banner_left h2 { 
+        font-size: 173px; 
+    }
+    .single_money h3 { 
+        font-size: 26px; 
+    }
+    .single_money p { 
+        font-size: 16px;
+        line-height: 23px; 
+    }
+}
+
+@media all and (max-width: 1500px){
+    
+}
+@media all and (max-width: 1400px){
+    .banner_left h2 {
+        font-size: 148px;
+    }
+    .banner_typing_flex .text1 { 
+        line-height: 64px;
+    }
+    .banner_right h3 { 
+        font-size: 40px;
+    }
+    .banner_btn a {
+        font-size: 28px; 
+    }
+    .banner_btn img {
+        width: 29px;
+        margin-right: 10px;
+        margin-top: 38px;
+    }
+    .logo img {
+        width: 250px;
+    }
+    .menu ul li a { 
+        font-size: 18px; 
+    }
+    .header { 
+        padding: 44px 0 28px 0;
+    }
+    .banner_typing_flex span {
+        font-size: 25px; 
+        height: 37px;
+    }
+    
+}
+
+@media all and (max-width: 1200px){
+    .banner_left h2 {
+        font-size: 124px;
+    }
+    .banner_typing_flex span { 
+        width: 68px;
+    }
+    .banner_typing_flex .text1 {
+        line-height: 42px;
+    }
+    .banner_right h3 {
+        font-size: 30px;
+    }
+    .banner_right {
+        margin-top: -161px;
+    }
+    .single_money h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+}
+
+@media all and (min-width: 991px){
+    .menu ul {
+        display: flex !important;
+    } 
+}
+@media all and (max-width: 991px){ 
+    .menu { 
+        display: none;
+        position: absolute;
+        left: 0;
+        z-index: 99999999;
+        top: 106px;
+        background: #00C8FF;
+        width: 100%;
+        border-bottom: 1px solid #00C8FF;
+    }
+    .contact_btn {
+        border: 1px solid #fff;
+    }
+    .contact_btn:hover {
+        background: #fff;
+        color: #000 !important;
+    }
+    .menu ul li a:hover {
+        color: #000;
+    }
+    .contact_btn { 
+        color: #fff !important;
+    }
+    .menu ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 35px 0;  
+    } 
+    .banner_desktop_right{
+        display: none;
+    }
+
+    .banner_mobile_right{
+        display: block;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    } 
+    .click_bars i {
+        font-size: 30px;
+        color: #fff;
+    }
+    .click_bars{
+        display: block;
+    }
+    .banner_right {
+        margin-top: 0;
+    }
+    .banner_left h2 {
+        font-size: 94px;
+        margin-bottom: 14px;
+    }
+    .banner_typing_flex span {
+        font-size: 18px;
+        height: 27px;
+    }
+}
+
+@media all and (max-width: 767px){ 
+    .banner_left h2 {
+        font-size: 69px;
+    }
+    .banner_right h3 {
+        font-size: 18px;
+    }
+    .banner_typing_flex .text1 {
+        line-height: 29px;
+    }
+    .banner_btn { 
+        margin: 52px 0 50px 0;
+        gap: 7px;
+        flex-direction: column;
+    }
+    .single_money {
+        margin-bottom: 25px;
+    }
+    .single_money p { 
+        width: 100%;
+    }
+    .banner_btn a {
+        font-size: 20px;
+    }
+    .banner_btn img {
+        width: 20px; 
+    }
+    .money_area { 
+        padding: 36px 0 12px 0;
+    }
+    .single_money p {
+        font-size: 14px; 
+    }
+    
+    .banner_typing_flex span {
+        font-size: 16px;
+        height: 23px;
+    }
+}
+
+@media all and (max-width: 575px){
+	.logo img {
+        width: 180px;
+    }
+    .banner_left h2 {
+        font-size: 70px;
+    }
+    .banner_btn {
+        margin: 20px 0 33px 0;
+        gap: 0;
+        flex-direction: column;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        padding-right: 2rem;
+        padding-left: 2rem; 
+    }
+    .banner_typing_flex span {
+        width: 56px;
+    }
+}
+
+@media all and (max-width: 560px){ 
+    .banner_left h2 {
+        font-size: 68px;
+    }
+}
+
+@media all and (max-width: 540px){ 
+    .banner_left h2 {
+        font-size: 63px;
+    }
+    
+}
+
+@media all and (max-width: 510px){ 
+    .banner_left h2 {
+        font-size: 50px;
+    }
+    .banner_typing_flex span {
+        font-size: 14px;
+        height: 19px;
+        width: 47px;
+    }
+    
+}
+
+@media all and (max-width: 450px){ 
+    .banner_left h2 {
+        font-size: 52px;
+    }
+    
+}
+
+
+@media all and (max-width: 425px){ 
+    .banner_left h2 {
+        font-size: 40px;
+    }
+    .banner_typing_flex .text1 {
+        line-height: 20px;
+    }
+
+}
+
+
+
+        </style>
     </head>
     <body> 
 
@@ -32,7 +500,9 @@
             <div class="container">
                 <div class="header">
                     <div class="logo">
-                        <a href="#"><img src="assets/images/logo.png" alt=""></a>
+                        <!-- <a href="#"><img src="https://i.postimg.cc/4mGzMNMG/logo.png" alt=""></a> -->
+                        <a href="#"><img src="https://i.postimg.cc/bwKLWCNN/Repeat-Grid-2.png" alt=""></a>
+                        <a href="#" class="click_bars"><i class="fas fa-bars"></i></a>
                     </div>
                     <div class="menu">
                         <ul>
@@ -46,6 +516,7 @@
                 </div>
             </div>
         </header>
+        <img src="https://i.imgur.com/ph1kMpZ.png" alt="Image" />
         <!--=====================  End Header Area  ====================-->
 
         <main class="main_area"> 
@@ -54,16 +525,19 @@
                 <div class="container">
                     <div class="banner">
                         <div class="banner_left">
-                            <h2>Full website for just <span>$675</span></h2>
+                            <div class="banner_text_boxxx">
+                                <h2>Full website <br> for just <span class="color_green">$675</span>
+                                    <p class="banner_typing_flex"> 
+                                        <span class="text1">Not </span>
+                                        <span class="text2"><span>$6,750</span></span>
+                                    </p>
+                                </h2>  
+                            </div>  
                             <div class="banner_btn">
-                                <a href="https://www.maxifyteam.com/contact-us"><img src="assets/images/left.png" alt=""> Get started now</a>
-                                <a href="https://www.maxifyteam.com/portfolio"><img src="assets/images/right.png" alt=""> Portfolio </a>
+                                <a href="https://www.maxifyteam.com/contact-us"><img src="https://i.postimg.cc/0rDYcJVZ/left.png" alt=""> Get started now</a>
+                                <a class="banner_second_btn" href="https://www.maxifyteam.com/portfolio"><img src="https://i.postimg.cc/RNTczx5H/right.png" alt=""> Portfolio </a>
                             </div>
-                        </div>
-                        <div class="banner_right">
-                            <h3>Not </h3>
-                            <h3><span>$6,750</span></h3>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </section>
@@ -113,13 +587,46 @@
 
         <!-- ~~~~~~~~~~ JS Files ~~~~~~~~~~-->
         <!-- jQuery -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="assets/js/bootstrap.min.js"></script>
-        <!-- Modernizr -->
-        <script src="assets/js/modernizr-3.11.2.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script> 
         <!-- Custom JS (Handed)-->
-        <script src="assets/js/scripts.js"></script>
+         <script>
+            $(document).ready(function() {
+                    function typeText(element, text, delay) {
+                        $(element).addClass('typing-cursor');  // Add underscore cursor
+                        let i = 0;
+                        let interval = setInterval(function() {
+                            if (i < text.length) {
+                                $(element).append(text.charAt(i));
+                                i++;
+                            } else {
+                                clearInterval(interval);
+                                $(element).removeClass('typing-cursor'); // Remove cursor after typing completes
+                            }
+                        }, delay);
+                    }
+
+                    // Clear the text initially
+                    $('.text1').text('');
+                    $('.text2 span').text('');
+
+                    // Start typing with a slower cursor effect
+                    typeText('.text1', 'Not ', 200);  // Slower typing with underscore
+                    setTimeout(function() {
+                        typeText('.text2 span', '$6,750', 200);  // Slower typing with underscore
+                    }, 1000); // Adjust delay as needed
+                });
+
+
+
+
+
+
+            $(document).on('click','.click_bars', function(){
+                $('.menu').slideToggle(500);
+
+                return false;
+            })
+         </script>
     </body>
 </html>
